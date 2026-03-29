@@ -290,10 +290,75 @@ font-weight: 900;
     margin-left: 0.5rem;
 }
 .review{
-    background-color: red;
+    background-color: var(--primary-color);
 }
 .review-section .carousel-item{
     margin-top: 3rem;
     padding: 10rem 3.125rem;
     background-color: var(--white-color);
+    border-radius: 0.975rem;
+    text-align: center;
 }
+.review-section .carousel-caption img {
+    max-width: 5rem;
+    border-radius: 50%;
+    padding: 0.3125rem;
+    margin: auto;
+    
+ }
+ .review-section .carousel-item .carousel-caption p{
+     font-size: 1.325rem;
+     line-height: 2.0625rem;
+     padding: 0 11% 0.625rem;
+
+ }
+ .review-section .carousel-indicators{
+    bottom: -2.8125rem;
+ }
+ .review-section .carousel-indicators button{
+     width: 15px;
+     height: 15px;
+     outline: none;
+     border-radius: 50%;
+     border: none;
+     margin-right: 1rem;
+     opacity: 0.2rem;
+    
+ }
+ .review-section .carousel-indicators button .active{
+    opacity: 1;
+ }
+ .FAQ h4 span{
+    color: var(--primary-color);
+    font-size: 1.875rem;
+    margin-right: 0.3125rem;
+    
+ }
+ /* book food */
+ .book-food{
+    width: 100%;
+    background: url('book.png') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+    padding: 4.375rem;
+ }
+ /* form*/
+ .newsletter{
+    width: 55%;
+    margin: 0 auto;
+ }
+ .newsletter .form-control{
+    height: 3.255rem;
+    padding: 0 1.25rem;
+    font-size: 0 875rem;
+    font-weight: 400;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    border: 0.1875rem solid var(--text-gray);
+    color: var(--black-color);
+    font-weight: 700;
+    
+ }

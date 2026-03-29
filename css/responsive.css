@@ -20,10 +20,15 @@
     line-height: 1.875rem;
  }
 
-}
+
 /*banner*/
 .top-banner{
     padding: 9.375rem 0 9.375rem;
+}
+/*carousel design*/
+.review-section .carousel-item .carousel-caption p{
+  padding: 0;
+}
 }
 
 @media(max-width: 767px){
@@ -43,5 +48,15 @@
   height: auto;
   padding: 3rem o;
 }
+/*carousel design*/
+.review-section .carousel-item {
+  padding: 11rem 3.125rem;
+}
 
+}
+@media(max-width: 330px){
+  /*carousel design */
+  .review-section .carousel-item {
+  padding: 13rem 3.12rem;
+  }
 }
